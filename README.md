@@ -9,7 +9,7 @@
       <pre><a href="https://github.com/dklkushal07" target="_blank" style = "text-decoration: none;"><img src="https://avatars.githubusercontent.com/u/68638711?v=4" width="200" alt="GitHub Profile of Kushal Dhakal" /><br/><sub>Kushal Dhakal</sub></a></pre>
     </td>
         <td align="center" width="200">
-      <pre><a href="https://github.com/nishamghimire5" target="_blank style = "text-decoration: none;""><img src="https://avatars.githubusercontent.com/u/77533996?v=4" width="200" alt="GitHub Profile of Kushal Dhakal" /><br/><sub>Nisham Ghimire</sub></a></pre>
+      <pre><a href="https://github.com/nishamghimire5" target="_blank " style = "text-decoration: none;"><img src="https://avatars.githubusercontent.com/u/77533996?v=4" width="200" alt="GitHub Profile of Kushal Dhakal" /><br/><sub>Nisham Ghimire</sub></a></pre>
     </td>
         <td align="center" width="200">
       <pre><a href="https://github.com/Shubham-karn" target="_blank" style = "text-decoration: none;"><img src="https://avatars.githubusercontent.com/u/147227439?v=4" width="200" alt="GitHub Profile of Kushal Dhakal" /><br/><sub>Shubham Karn</sub></a></pre>
@@ -19,6 +19,7 @@
     </td>
 </tr>
 </table>
+
 ## Project Architecture
 
 
