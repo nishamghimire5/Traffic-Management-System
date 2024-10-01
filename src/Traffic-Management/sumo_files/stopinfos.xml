@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-10-01 21:50:00 by Eclipse SUMO sumo Version 1.20.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="E:\ACER\Downloads\rl-environment-main\rl-environment-main\2024-10-01-20-21-00\2024-10-01-21-49-55\osm.net.xml.gz"/>
+        <route-files value="E:\ACER\Downloads\rl-environment-main\rl-environment-main\2024-10-01-20-21-00\2024-10-01-21-49-55\trips.trips.xml"/>
+        <additional-files value="E:\ACER\Downloads\rl-environment-main\rl-environment-main\2024-10-01-20-21-00\2024-10-01-21-49-55\osm_stops.add.xml"/>
+    </input>
+
+    <output>
+        <vehroute-output value="E:\ACER\Downloads\rl-environment-main\rl-environment-main\2024-10-01-20-21-00\2024-10-01-21-49-55\vehroutes.xml"/>
+        <stop-output value="E:\ACER\Downloads\rl-environment-main\rl-environment-main\2024-10-01-20-21-00\2024-10-01-21-49-55\stopinfos.xml"/>
+    </output>
+
+    <time>
+        <begin value="0.0"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-interval value="0"/>
+    </routing>
+
+    <report>
+        <aggregate-warnings value="5"/>
+        <error-log value="E:\ACER\Downloads\rl-environment-main\rl-environment-main\2024-10-01-20-21-00\2024-10-01-21-49-55\trips.trips.xml.errorlog"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<stops xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/stopinfo_file.xsd">
+    <stopinfo id="0_bus_Chakrapath_Parikrama:0" type="pt_bus" lane="1118309782_0" pos="0.20" parking="0" started="16.00" ended="46.00" busStop="31228768" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="2_bus_7:0" type="pt_bus" lane="231882049_0" pos="24.99" parking="0" started="61.00" ended="91.00" busStop="2377002167" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="3_bus_11:0" type="pt_bus" lane="193289327_0" pos="414.91" parking="0" started="111.00" ended="141.00" busStop="5645760472" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="5_bus_12:0" type="pt_bus" lane="231882049_0" pos="24.97" parking="0" started="299.00" ended="329.00" busStop="2377002167" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="1_bus_Nepal_Yatayat:0" type="pt_bus" lane="1118309782_0" pos="0.20" parking="0" started="347.00" ended="377.00" busStop="31228768" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="6_bus_Changu-Ratnapark:0" type="pt_bus" lane="1118309782_0" pos="0.20" parking="0" started="383.00" ended="413.00" busStop="31228768" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="7_bus_Gothatar-Purano_Buspark:0" type="pt_bus" lane="1118309782_0" pos="0.20" parking="0" started="419.00" ended="449.00" busStop="31228768" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="8_bus_kalanki-Balkumari:0" type="pt_bus" lane="1118309782_0" pos="0.20" parking="0" started="450.00" ended="480.00" busStop="31228768" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="9_bus_Kalanki-Pepsacola:0" type="pt_bus" lane="1118309782_0" pos="0.20" parking="0" started="481.00" ended="511.00" busStop="31228768" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="10_bus_40:0" type="pt_bus" lane="1118309782_0" pos="0.20" parking="0" started="517.00" ended="547.00" busStop="31228768" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="9_bus_Kalanki-Pepsacola:0" type="pt_bus" lane="231882049_0" pos="25.00" parking="0" started="555.00" ended="585.00" busStop="2377002167" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="11_bus_lagankhel_-_Naya_Buspark(Ringroad):0" type="pt_bus" lane="1118309782_0" pos="0.20" parking="0" started="596.00" ended="626.00" busStop="31228768" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="12_bus_Nepal_Yatayat:1" type="pt_bus" lane="1118309782_0" pos="0.20" parking="0" started="632.00" ended="662.00" busStop="31228768" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="10_bus_40:0" type="pt_bus" lane="231882049_0" pos="24.99" parking="0" started="634.00" ended="664.00" busStop="2377002167" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="5_bus_12:0" type="pt_bus" lane="193289327_0" pos="414.91" parking="0" started="751.00" ended="781.00" busStop="5645760472" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+</stops>
