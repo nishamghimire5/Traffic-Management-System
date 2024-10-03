@@ -29,29 +29,45 @@
 
 
 # Usage
-## Installation
-To begin this project, use the included `Makefile`
+## Installation and Setup Instructions
 
-#### Creating Virtual Environment
+1. **Install the Latest Software:**
+   - Ensure you have the latest version of Python, SUMO, and SUMO Gym installed on your system.
 
-This package is built using `python-3.8`. 
-We recommend creating a virtual environment and using a matching version to ensure compatibility.
+2. **Clone the Repository:**
+   - Use Git to clone the repository to your local machine.
 
-#### pre-commit
+3. **Navigate to the Project Directory:**
+   - Open your terminal (or command prompt) and navigate to the following directory:
+     ```bash
+     traffic-management-system-sumo_files/src/Traffic-Management
+     ```
 
-`pre-commit` will automatically format and lint your code. You can install using this by using
-`make use-pre-commit`. It will take effect on your next `git commit`
+4. **Create a New Conda Environment (if you have Anaconda installed):**
+   - Run the following command to create a new environment named `fellowship_env`:
+     ```bash
+     conda create --name fellowship_env python
+     ```
 
-#### pip-tools
+5. **Activate the Conda Environment:**
+   - After creating the environment, activate it with the command:
+     ```bash
+     conda activate fellowship_env
+     ```
 
-The method of managing dependencies in this package is using `pip-tools`. To begin, run `make use-pip-tools` to install. 
+6. **Install Required Packages:**
+   - Install the necessary dependencies by running:
+     ```bash
+     pip install -r requirements.txt
+     ```
 
-Then when adding a new package requirement, update the `requirements.in` file with 
-the package name. You can include a specific version if desired but it is not necessary. 
+7. **Train the Model:**
+   - Finally, start the training process by executing:
+     ```bash
+     python train.py
+     ```
+   - **Note:** The training process may take 1 to 2 days to complete, depending on your system's performance.
 
-To install and use the new dependency you can run `make deps-install` or equivalently `make`
-
-If you have other packages installed in the environment that are no longer needed, you can you `make deps-sync` to ensure that your current development environment matches the `requirements` files. 
 
 ## Usage Instructions
 
