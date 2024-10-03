@@ -1,6 +1,7 @@
-# 3d-reconstruction-from-2d-image
+# Traffic Management System using SUMO and Reinforcement Learning
 
 ## Introduction
+This project demonstrates a Traffic Management System using SUMO (Simulation of Urban MObility) integrated with Reinforcement Learning (RL) environments. The system is designed to optimize traffic flow and reduce congestion at intersections using advanced RL techniques.
 ## Goals
 ## Contributors
 <table>
