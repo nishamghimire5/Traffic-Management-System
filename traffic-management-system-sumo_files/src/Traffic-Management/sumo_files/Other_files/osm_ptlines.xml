@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-10-01 21:49:59 by Eclipse SUMO netconvert Version 1.20.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="${SUMO_HOME}/data/typemap/osmNetconvert.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertAerialway.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml.gz"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+        <lefthand value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+</configuration>
+-->
+
+<ptLines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/ptlines_file.xsd">
+    <ptLine id="2301263" name="Chakrapath Parikrama" line="Chakrapath Parikrama" type="bus" vClass="bus" completeness="0.04" missingBefore="23" missingAfter="2">
+        <route edges="1118309782 193289326 215507255 416294069#0 416294069#1"/>
+        <busStop id="31228768" name="Koteshwar Stop;Koteshwar Chok"/>
+    </ptLine>
+    <ptLine id="2301306" name="Balkumari-Gopi Krishna" line="Nepal Yatayat" type="bus" vClass="bus" completeness="0.08" missingBefore="2" missingAfter="10">
+        <route edges="1118309782 193289326 591357319"/>
+        <busStop id="31228768" name="Koteshwar Stop;Koteshwar Chok"/>
+    </ptLine>
+    <ptLine id="2988890" name="Bagbazaar-Kamalbinayak" line="7" type="bus" vClass="bus" completeness="0.11" missingBefore="8" missingAfter="9">
+        <route edges="194607856 1132407062 231882049"/>
+        <busStop id="2377002167" name="Jadibuti"/>
+        <busStop id="31228768" name="Koteshwar Stop;Koteshwar Chok"/>
+    </ptLine>
+    <ptLine id="2988891" name="Ratnapark - Panauti" line="11" type="bus" vClass="bus" completeness="0.04" missingAfter="25">
+        <route edges="591355894 193289327 194607856 1132407062 231882049"/>
+        <busStop id="5645760472" name="Koteshwar Stop"/>
+    </ptLine>
+    <ptLine id="2988983" name="Chyamasingh to Ratnapark" line="Chyamasingh to Ratnapark" type="bus" vClass="bus" completeness="0.03" missingBefore="15" missingAfter="16">
+        <route edges="226834863#0 226834863#0-AddedOffRampEdge 226834863#1 1118309782 193289326 591357319"/>
+        <busStop id="31228768" name="Koteshwar Stop;Koteshwar Chok"/>
+    </ptLine>
+    <ptLine id="2988993" name="Ratnapark - Dhulikhel" line="12" type="bus" vClass="bus" completeness="0.07" missingBefore="16" missingAfter="9">
+        <route edges="591355894 193289327 194607856 1132407062 231882049"/>
+        <busStop id="2377002167" name="Jadibuti"/>
+        <busStop id="5645760472" name="Koteshwar Stop"/>
+    </ptLine>
+    <ptLine id="2989027" name="Changu-Ratnapark" line="Changu-Ratnapark" type="bus" vClass="bus" completeness="0.05" missingBefore="10" missingAfter="11">
+        <route edges="1118309782 193289326 591357319"/>
+        <busStop id="31228768" name="Koteshwar Stop;Koteshwar Chok"/>
+    </ptLine>
+    <ptLine id="3020174" name="Gothatar-Purano Buspark" line="Gothatar-Purano Buspark" type="bus" vClass="bus" completeness="0.10" missingBefore="8" missingAfter="1">
+        <busStop id="31228768" name="Koteshwar Stop;Koteshwar Chok"/>
+    </ptLine>
+    <ptLine id="3070257" name="kalanki-Balkumari" line="kalanki-Balkumari" type="bus" vClass="bus" completeness="0.09" missingBefore="10">
+        <route edges="215507255 416294069#0 416294069#1"/>
+        <busStop id="31228768" name="Koteshwar Stop;Koteshwar Chok"/>
+    </ptLine>
+    <ptLine id="3070262" name="Kalanki-Pepsacola" line="Kalanki-Pepsacola" type="bus" vClass="bus" completeness="0.15" missingBefore="10" missingAfter="1">
+        <route edges="1118309782 193289326 591357319 194607856 1132407062 231882049"/>
+        <busStop id="31228768" name="Koteshwar Stop;Koteshwar Chok"/>
+        <busStop id="2377002167" name="Jadibuti"/>
+    </ptLine>
+    <ptLine id="3070344" name="Kausaltar-Naikap" line="40" type="bus" vClass="bus" completeness="0.15" missingBefore="10" missingAfter="1">
+        <route edges="194607856 1132407062 231882049"/>
+        <busStop id="31228768" name="Koteshwar Stop;Koteshwar Chok"/>
+        <busStop id="2377002167" name="Jadibuti"/>
+    </ptLine>
+    <ptLine id="3149903" name="lagankhel - Naya Buspark(Ringroad)" line="lagankhel - Naya Buspark(Ringroad)" type="bus" vClass="bus" completeness="0.05" missingBefore="5" missingAfter="15">
+        <route edges="1118309782 193289326"/>
+        <busStop id="31228768" name="Koteshwar Stop;Koteshwar Chok"/>
+    </ptLine>
+    <ptLine id="3468819" name="Gopi Krishna-Balkumari" line="Nepal Yatayat" type="bus" vClass="bus" completeness="0.08" missingBefore="2" missingAfter="10">
+        <route edges="215507255 416294069#0 416294069#1"/>
+        <busStop id="31228768" name="Koteshwar Stop;Koteshwar Chok"/>
+    </ptLine>
+</ptLines>
