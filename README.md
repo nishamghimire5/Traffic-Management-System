@@ -41,7 +41,7 @@ This project demonstrates a Traffic Management System using SUMO (Simulation of 
 3. **Navigate to the Project Directory:**
    - Open your terminal (or command prompt) and navigate to the following directory:
      ```bash
-     traffic-management-system-sumo_files/src/Traffic-Management
+     traffic-management-system\src
      ```
 
 4. **Create a New Conda Environment (if you have Anaconda installed):**
