@@ -23,6 +23,10 @@ This project demonstrates a Traffic Management System using SUMO (Simulation of 
 
 ## Project Architecture
 
+![image](https://github.com/user-attachments/assets/2fe6391d-4df1-4aa0-85b1-ee83c68ff2ae)
+
+![image](https://github.com/user-attachments/assets/03e2343e-8e5d-4404-ad2c-492af48a8416)
+
 
 # Status
 ## Known Issue
