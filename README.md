@@ -3,7 +3,12 @@
 ## Introduction
 This project demonstrates a Traffic Management System using SUMO (Simulation of Urban MObility) integrated with Reinforcement Learning (RL) environments. The system is designed to optimize traffic flow and reduce congestion at intersections using advanced RL techniques.
 ## Goals
-Our goal is to design and implement an adaptive traffic signal control system by creating a simulated traffic environment and training a reinforcement learning (RL) model. The goal is to optimize traffic flow and reduce congestion at intersections, leveraging the capabilities of RL algorithms for real-time decision-making within a simulation environment like SUMO (Simulation of Urban MObility).
+- Design and implement an adaptive traffic signal control system.
+- Create a simulated traffic environment for testing.
+- Train a reinforcement learning (RL) model to optimize traffic flow.
+- Reduce congestion at intersections through real-time decision-making.
+- Leverage RL algorithms for dynamic and efficient traffic control.
+- Utilize SUMO (Simulation of Urban MObility) as the simulation environment.
 ## Contributors
 <table>
 <tr>
