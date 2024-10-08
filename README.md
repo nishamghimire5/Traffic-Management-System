@@ -3,6 +3,7 @@
 ## Introduction
 This project demonstrates a Traffic Management System using SUMO (Simulation of Urban MObility) integrated with Reinforcement Learning (RL) environments. The system is designed to optimize traffic flow and reduce congestion at intersections using advanced RL techniques.
 ## Goals
+Our goal is to design and implement an adaptive traffic signal control system by creating a simulated traffic environment and training a reinforcement learning (RL) model. The goal is to optimize traffic flow and reduce congestion at intersections, leveraging the capabilities of RL algorithms for real-time decision-making within a simulation environment like SUMO (Simulation of Urban MObility).
 ## Contributors
 <table>
 <tr>
@@ -22,6 +23,20 @@ This project demonstrates a Traffic Management System using SUMO (Simulation of 
 </table>
 
 ## Project Architecture
+The project has been divided into following componenets: 
+<br>
+1. SUMO Environment Setup
+Traffic Simulation: While SUMO itself is not an AI component, it provides a simulated environment that can be used to train AI models. The traffic scenarios created can serve as a dataset for reinforcement learning.
+2. RL Model Design
+Objective Definition: Defining the objectives (like minimizing waiting time or congestion) is crucial for the reinforcement learning model. This is where AI concepts are applied to determine what the model should aim to optimize.
+Algorithm Selection: Choosing a reinforcement learning algorithm (like PPO, DQN, etc.) involves understanding various AI techniques that affect learning efficiency and model performance.
+Architecture Design: Designing the architecture for the RL model (e.g., neural networks) is a key AI component that determines how the model processes input and makes decisions.
+3. Integration with OpenAI Gym
+Gym Environment Development: Creating a Gym environment tailored for SUMO involves applying AI principles to ensure that the environment correctly simulates the dynamics of the traffic system and allows the RL model to learn effectively.
+Model Integration: Implementing the RL model within the Gym framework is an AI-related task that connects the learning algorithm with the simulation, enabling interaction and training.
+4. Model Training
+Reinforcement Learning Training: This is a core AI component where the RL model learns from the traffic simulation data provided by SUMO. It involves iteratively adjusting the model's parameters based on feedback from the environment.
+Performance Optimization: Fine-tuning the model to improve its decision-making capabilities is another AI component, utilizing techniques like hyperparameter tuning or training enhancements.
 
 <img src="https://github.com/user-attachments/assets/dc44fd51-00bc-4226-8976-f96c4d0b42d1" alt="Architecture Diagram" width="340"/>
 
