@@ -60,7 +60,12 @@ The project is divided into the following components:
 # Status
 ## Known Issue
 ## High Level Next Steps
-
+- **Implement Advanced RL Techniques**: Explore and integrate state-of-the-art algorithms (e.g., PPO, TRPO, A3C) for improved performance.
+- **Optimize Hyperparameters**: Conduct systematic tuning and experiment with various neural network architectures.
+- **Expand Traffic Scenarios**: Introduce diverse scenarios with varying traffic densities and road configurations.
+- **Real-Time Data Integration**: Investigate methods to incorporate real-time traffic data and sensor inputs.
+- **Develop Visualization Tools**: Create dashboards to monitor traffic flow and model performance.
+- **Conduct User Testing**: Engage with stakeholders for feedback on usability and effectiveness.
 
 # Usage
 ## Installation and Setup Instructions
