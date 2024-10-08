@@ -1,0 +1,56 @@
+***Starting server on port 64476 ***
+Loading net-file from 'sumo_files/osm.net.xml' ... done (81ms).
+Loading additional-files from 'sumo_files/Other_files\osm.poly.xml' ... done (91ms).
+Loading additional-files from 'sumo_files/Other_files\osm_stops.add.xml' ... done (15ms).
+Loading done.
+Simulation version 1.20.0 started with time: 0.00.
+Simulation ended at time: 0.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 1.93s
+ TraCI-Duration: 0.00s
+ Real time factor: 0
+ UPS: 0.000000
+Vehicles:
+ Inserted: 0 (Loaded: 5)
+ Running: 0
+ Waiting: 0
+Statistics (avg of 0):
+ RouteLength: 0.00
+ Speed: 0.00
+ Duration: 0.00
+ WaitingTime: 0.00
+ TimeLoss: 0.00
+ DepartDelay: 0.00
+
+***Starting server on port 64478 ***
+Loading net-file from 'sumo_files/osm.net.xml' ... done (27ms).
+Loading additional-files from 'sumo_files/Other_files\osm.poly.xml' ... done (115ms).
+Loading additional-files from 'sumo_files/Other_files\osm_stops.add.xml' ... done (19ms).
+Loading done.
+Simulation version 1.20.0 started with time: 0.00.
+Total reward: -1901.3993333333574
+Simulation ended at time: 3989.00
+Reason: TraCI requested termination.
+Performance:
+ Duration: 40.74s
+ TraCI-Duration: 39.58s
+ Real time factor: 97.9208
+ UPS: 987.947075
+Vehicles:
+ Inserted: 335
+ Running: 0
+ Waiting: 0
+ Teleports: 22 (Jam: 2, Yield: 2, Wrong Lane: 18)
+ Emergency Stops: 7
+ Emergency Braking: 9
+Statistics (avg of 335):
+ RouteLength: 775.75
+ Speed: 9.37
+ Duration: 120.12
+ WaitingTime: 46.18
+ TimeLoss: 63.83
+ DepartDelay: 33.05
+
+DijkstraRouter answered 259 queries and explored 11.75 edges on average.
+DijkstraRouter spent 0.00s answering queries (0.01ms on average).
