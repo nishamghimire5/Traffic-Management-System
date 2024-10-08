@@ -28,24 +28,24 @@ This project demonstrates a Traffic Management System using SUMO (Simulation of 
 </table>
 
 ## Project Architecture
-The project has been divided into following componenets: 
-<br>
-1. SUMO Environment Setup
-- Traffic Simulation: While SUMO itself is not an AI component, it provides a simulated environment that can be used to train AI models. The traffic scenarios created can serve as a dataset for reinforcement learning.
+The project is divided into the following components:
 
-2. RL Model Design
-- Objective Definition: Defining the objectives (like minimizing waiting time or congestion) is crucial for the reinforcement learning model. This is where AI concepts are applied to determine what the model should aim to optimize.
-- Algorithm Selection: Choosing a reinforcement learning algorithm (like PPO, DQN, etc.) involves understanding various AI techniques that affect learning efficiency and model performance.
-- Architecture Design: Designing the architecture for the RL model (e.g., neural networks) is a key AI component that determines how the model processes input and makes decisions.
-  
-3. Integration with Gymnasium:
-- Gym Environment Development: Creating a Gym environment tailored for SUMO involves applying AI principles to ensure that the environment correctly simulates the dynamics of the traffic system and allows the RL model to learn effectively.
-- Model Integration: Implementing the RL model within the Gym framework is an AI-related task that connects the learning algorithm with the simulation, enabling interaction and training.
-  
-5. Model Training
-- Reinforcement Learning Training: This is a core AI component where the RL model learns from the traffic simulation data provided by SUMO. It involves iteratively adjusting the model's parameters based on feedback from the environment.
-- Performance Optimization: Fine-tuning the model to improve its decision-making capabilities is another AI component, utilizing techniques like hyperparameter tuning or training enhancements.
+### 1. SUMO Environment Setup
+- **Traffic Simulation**: While SUMO itself is not an AI component, it provides a simulated environment used for training AI models. The traffic scenarios created serve as datasets for reinforcement learning.
 
+### 2. RL Model Design
+- **Objective Definition**: Defining the objectives (e.g., minimizing waiting time or congestion) is essential for the RL model. This determines what the model should aim to optimize.
+- **Algorithm Selection**: Choosing the appropriate reinforcement learning algorithm (such as PPO, DQN, etc.) involves understanding various AI techniques that affect learning efficiency and model performance.
+- **Architecture Design**: Designing the architecture of the RL model (e.g., neural networks) plays a crucial role in how the model processes input and makes decisions.
+
+### 3. Integration with Gymnasium
+- **Gym Environment Development**: Developing a Gym environment tailored for SUMO applies AI principles to simulate the traffic system dynamics and allow the RL model to learn effectively.
+- **Model Integration**: Implementing the RL model within the Gym framework enables interaction and training between the learning algorithm and the simulation.
+
+### 4. Model Training
+- **Reinforcement Learning Training**: The RL model learns from the traffic simulation data provided by SUMO, iteratively adjusting parameters based on feedback from the environment.
+- **Performance Optimization**: Fine-tuning the model to enhance decision-making capabilities through techniques such as hyperparameter tuning or training improvements.
+<br />
 <img src="https://github.com/user-attachments/assets/dc44fd51-00bc-4226-8976-f96c4d0b42d1" alt="Architecture Diagram" width="340"/>
 
 <br />
