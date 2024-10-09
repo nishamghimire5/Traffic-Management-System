@@ -205,7 +205,11 @@ These directories contain essential artifacts such as trained models, logs of th
 # Results
 The results of the training and evaluation are documented in the `src/logs/results/` directory.
 ## Metrics Used
-- **Average Waiting Time:** Measures the average time vehicles spend waiting at intersections.
-- **Traffic Flow Efficiency:** Evaluates the overall efficiency of traffic movement.
+
+-** Total reward: **Indicates overall effectiveness of the RL model (0.799).
+- **Average speed of vehicles:** Provided insight into traffic flow (9.37 m/s).
+-** Waiting time:** Evaluated the average time vehicles spent idling (46.18 seconds).
+- **Teleports and emergency stops: **Highlighted inefficiencies and areas for improvement.
+  
 ## Evaluation Results
 The evaluation results indicate significant improvements in traffic flow and reduced waiting times at intersections using the trained RL model. The detailed results can be found in the `src/logs/results/` directory, including metrics like episode lengths and evaluation scores.
