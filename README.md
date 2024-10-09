@@ -182,6 +182,16 @@ traffic-management-system/
 ```
 ## Artifacts Location
 
+- **Model Checkpoints:** Stored in `src/checkpoints/`
+- **Training Logs:** Located in `src/logs/`
+- **Simulation Outputs:** Available in `src/sumo_files/`
+- **TensorBoard Logs:** Located in `src/tensorboard_logs/`
+
+These directories contain essential artifacts such as trained models, logs of the training process, simulation files, and logs for visualization using TensorBoard.
 # Results
+The results of the training and evaluation are documented in the `src/logs/results/` directory.
 ## Metrics Used
+- **Average Waiting Time:** Measures the average time vehicles spend waiting at intersections.
+- **Traffic Flow Efficiency:** Evaluates the overall efficiency of traffic movement.
 ## Evaluation Results
+The evaluation results indicate significant improvements in traffic flow and reduced waiting times at intersections using the trained RL model. The detailed results can be found in the `src/logs/results/` directory, including metrics like episode lengths and evaluation scores.
