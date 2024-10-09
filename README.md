@@ -209,9 +209,9 @@ The results of the training and evaluation are documented in the `src/logs/resul
 
 ## Metrics Used
 
-- ** Total reward:** Indicates overall effectiveness of the RL model (0.799).
+- **Total reward:** Indicates overall effectiveness of the RL model (0.799).
 - **Average speed of vehicles:** Provided insight into traffic flow (9.37 m/s).
-- ** Waiting time:** Evaluated the average time vehicles spent idling (46.18 seconds).
+- **Waiting time:** Evaluated the average time vehicles spent idling (46.18 seconds).
 - **Teleports and emergency stops:** Highlighted inefficiencies and areas for improvement.
   
 ## Evaluation Results
