@@ -97,7 +97,7 @@ The project is divided into the following components:
 6. **Install Required Packages:**
    - Install the necessary dependencies by running:
      ```bash
-     pip install -r requirements.txt
+     pip install -r requirements.in
      ```
 
 7. **Train the Model:**
